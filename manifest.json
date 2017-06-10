@@ -1,0 +1,21 @@
+{
+    "manifest_version": 2,
+    "name": "EasyConnect",
+    "description": "Extract contact details with links of a web-app and presents it via voice and visual interface with enabled default device call and mail application.",
+    "browser_action": {
+        "default_title":"EasyConnect"
+    },
+    "version": "1.0",
+	"icons": { "16": "16.png",
+           "48": "48.png",
+          "128": "128.png" },
+    "permissions": [
+        "tabs",
+        "activeTab",
+        "<all_urls>",
+        "storage"
+    ],
+    "background": {
+        "scripts": ["bk.js"]
+    }
+}
